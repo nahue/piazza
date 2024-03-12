@@ -1,3 +1,4 @@
 {
-    "rubyLsp.rubyVersionManager": "asdf"
+    "rubyLsp.rubyVersionManager": "asdf",
+    "editor.formatOnSave": true
 }
