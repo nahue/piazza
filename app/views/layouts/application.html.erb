@@ -9,6 +9,7 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
   </head>
   <body>
+    <%= render "application/navbar" %>
     <%= render "application/flashes" %>
     <main>
       <%= yield %>
