@@ -4,6 +4,7 @@
     organization: jerry
     title: <%= Faker::Commerce.product_name %>
     price: <%= Faker::Commerce.price.floor %>
+    condition: mint
   <% end %>
 
   <% 10.times do |n| %>
@@ -12,14 +13,16 @@
     organization: kramer
     title: <%= Faker::Commerce.product_name %>
     price: <%= Faker::Commerce.price.floor %>
+    condition: near_mint
   <% end %>
-  
+
   <% 10.times do |n| %>
   auto_listing_<%= n %>_elaine:
     creator: elaine
     organization: elaine
     title: <%= Faker::Commerce.product_name %>
     price: <%= Faker::Commerce.price.floor %>
+    condition: mint
   <% end %>
 
   <% 10.times do |n| %>
@@ -28,4 +31,5 @@
     organization: george
     title: <%= Faker::Commerce.product_name %>
     price: <%= Faker::Commerce.price.floor %>
+    condition: near_mint
   <% end %>
