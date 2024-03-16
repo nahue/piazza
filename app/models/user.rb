@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  include Authentication
+  include Authentication, PasswordReset
   # before_validation :strip_extraneous_spaces
 
   validates :name, presence: true
